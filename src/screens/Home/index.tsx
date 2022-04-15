@@ -1,12 +1,14 @@
-import React from 'react';
-
-import { View, Text } from 'react-native';
-
+import { useState} from 'react';
+import { Text } from 'react-native';
+import { Divider } from 'react-native-elements';
+import { Container } from './style'
+import api from '../../services/api';
 
 export function Home(){
   return (
-    <View style={ {justifyContent: 'center', alignItems: 'center' }}>
-        <Text>Home</Text>
-    </View>
+    <Container>
+
+
+    </Container>
   );
 }
